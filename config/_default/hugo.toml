@@ -14,6 +14,11 @@ buildExpired = false
 [outputs]
   page = ["HTML", "JSON"]
 
+[outputFormats.JSON]
+  mediaType = "application/json"
+  suffix = "json"
+  isPlainText = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
