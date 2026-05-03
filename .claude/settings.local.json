@@ -16,7 +16,8 @@
       "Bash(git push *)",
       "Bash(gh run *)",
       "Bash(curl -s https://api.github.com/repos/zzzzzy2k/zzzzzy2k.github.io/pages)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(hugo --templateMetrics)"
     ]
   }
 }

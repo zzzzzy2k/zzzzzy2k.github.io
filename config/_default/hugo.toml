@@ -3,12 +3,16 @@ locale = "zh-cn"
 defaultContentLanguage = "zh"
 title = "zzzzzy2k 的博客"
 theme = "stack"
-[pagination]
-  pagerSize = 5
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+
+[pagination]
+  pagerSize = 5
+
+[outputs]
+  page = ["HTML", "JSON"]
 
 [markup]
   [markup.goldmark]
