@@ -1,0 +1,20 @@
+baseURL = "https://zzzzzy2k.github.io/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+title = "zzzzzy2k 的博客"
+theme = "hugo-theme-stack"
+paginate = 5
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
