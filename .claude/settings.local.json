@@ -11,7 +11,11 @@
       "Bash(git commit *)",
       "Read(//c/Users/zzy/AppData/Local/Microsoft/WinGet/Packages/**)",
       "Read(//c/Users/zzy/AppData/**)",
-      "Bash(hugo --minify)"
+      "Bash(hugo --minify)",
+      "Bash(git rm *)",
+      "Bash(git push *)",
+      "Bash(gh run *)",
+      "Bash(curl -s https://api.github.com/repos/zzzzzy2k/zzzzzy2k.github.io/pages)"
     ]
   }
 }

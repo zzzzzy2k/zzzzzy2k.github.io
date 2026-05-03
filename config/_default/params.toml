@@ -5,7 +5,7 @@ robots = true
 [sidebar]
   emoji = "📖"
   subtitle = "记录技术与生活"
-  avatar = "images/avatar.png"
+  avatar = "https://github.com/zzzzzy2k.png"
   [sidebar.posts]
     limit = 5
 
