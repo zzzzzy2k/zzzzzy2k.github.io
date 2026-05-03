@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe *)",
+      "Bash(export PATH=\"$PATH:/c/Users/zzy/AppData/Local/Microsoft/WinGet/Packages/Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\")",
+      "Bash(hugo new *)",
+      "Bash(git commit -m ' *)",
+      "Bash(hugo version *)",
+      "Bash(git submodule *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
