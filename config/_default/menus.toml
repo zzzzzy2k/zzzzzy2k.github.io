@@ -2,23 +2,40 @@
   name = "首页"
   url = "/"
   weight = 1
+  [main.params]
+    Icon = "home"
 
 [[main]]
   name = "归档"
   url = "/archives/"
   weight = 2
+  [main.params]
+    Icon = "archives"
 
 [[main]]
   name = "标签"
   url = "/tags/"
   weight = 3
+  [main.params]
+    Icon = "tag"
 
 [[main]]
   name = "关于"
   url = "/about/"
   weight = 4
+  [main.params]
+    Icon = "user"
 
 [[main]]
   name = "项目"
   url = "/projects/"
   weight = 5
+  [main.params]
+    Icon = "link"
+
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/zzzzzy2k"
+  weight = 6
+  [main.params]
+    Icon = "brand-github"
