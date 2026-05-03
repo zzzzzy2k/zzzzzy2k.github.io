@@ -1,8 +1,8 @@
 baseURL = "https://zzzzzy2k.github.io/"
-languageCode = "zh-cn"
+locale = "zh-cn"
 defaultContentLanguage = "zh"
 title = "zzzzzy2k 的博客"
-theme = "hugo-theme-stack"
+theme = "stack"
 paginate = 5
 enableRobotsTXT = true
 buildDrafts = false

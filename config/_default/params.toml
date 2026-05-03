@@ -5,19 +5,14 @@ robots = true
 [sidebar]
   emoji = "📖"
   subtitle = "记录技术与生活"
-  [sidebar.avatar]
-    enabled = true
-    local = true
-    src = "images/avatar.png"
+  avatar = "images/avatar.png"
+  [sidebar.posts]
+    limit = 5
 
 [article]
   toc = true
   readingTime = true
   license = { enabled = false }
-
-[sidebar]
-  [sidebar.posts]
-    limit = 5
 
 [widget]
   [widget.social]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>文章 on zzzzzy2k 的博客</title><link>https://zzzzzy2k.github.io/posts/</link><description>Recent content in 文章 on zzzzzy2k 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://zzzzzy2k.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>你好，世界</title><link>https://zzzzzy2k.github.io/posts/hello-world/</link><pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate><guid>https://zzzzzy2k.github.io/posts/hello-world/</guid><description>&lt;p&gt;欢迎来到我的博客！这是第一篇文章，用于测试博客的基本功能。&lt;/p&gt;
+&lt;h2 id="关于这个博客"&gt;关于这个博客
+&lt;/h2&gt;&lt;p&gt;这个博客使用 Hugo + Stack 主题搭建，托管在 GitHub Pages 上。&lt;/p&gt;
+&lt;h2 id="未来计划"&gt;未来计划
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;分享技术学习笔记&lt;/li&gt;
+&lt;li&gt;记录项目开发经验&lt;/li&gt;
+&lt;li&gt;写一些生活随笔&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

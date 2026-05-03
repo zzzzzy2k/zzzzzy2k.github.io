@@ -8,7 +8,10 @@
       "Bash(hugo version *)",
       "Bash(git submodule *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Read(//c/Users/zzy/AppData/Local/Microsoft/WinGet/Packages/**)",
+      "Read(//c/Users/zzy/AppData/**)",
+      "Bash(hugo --minify)"
     ]
   }
 }
