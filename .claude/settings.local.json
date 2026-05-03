@@ -19,7 +19,8 @@
       "WebSearch",
       "Bash(hugo --templateMetrics)",
       "Bash(hugo --minify --debug)",
-      "Bash(hugo --minify --templateMetrics)"
+      "Bash(hugo --minify --templateMetrics)",
+      "WebFetch(domain:zzzzzy2k.github.io)"
     ]
   }
 }

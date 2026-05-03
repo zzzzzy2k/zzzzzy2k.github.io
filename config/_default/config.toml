@@ -13,8 +13,3 @@ hasCJKLanguage = true
 
 [outputs]
     page = ["HTML", "JSON"]
-
-[outputFormats.JSON]
-    mediaType = "application/json"
-    suffix = "json"
-    isPlainText = true
