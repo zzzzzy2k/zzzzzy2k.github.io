@@ -1,0 +1,57 @@
+:root {
+  --body-background: #faf8f5;
+  --card-background: #ffffff;
+  --text-primary: #2c2c2c;
+  --text-secondary: #666666;
+  --accent-color: #c0785c;
+  --accent-color-light: #e8c4b0;
+  --border-color: #e8e0d8;
+  --shadow-color: rgba(0, 0, 0, 0.06);
+  --font-body: "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
+  --font-heading: "Noto Sans SC", "Source Han Sans SC", sans-serif;
+  --font-code: "JetBrains Mono", "Fira Code", monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--body-background);
+  color: var(--text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+code, pre {
+  font-family: var(--font-code);
+}
+
+a {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: var(--accent-color-light);
+}
+
+#sidebar {
+  background: var(--card-background);
+}
+
+.article-card {
+  background: var(--card-background);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+[data-theme="dark"] {
+  --body-background: #1a1a2e;
+  --card-background: #22223b;
+  --text-primary: #e0d8ce;
+  --text-secondary: #a09888;
+  --accent-color: #e8a87c;
+  --accent-color-light: #f0c8a0;
+  --border-color: #333355;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+}
