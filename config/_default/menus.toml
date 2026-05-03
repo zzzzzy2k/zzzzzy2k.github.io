@@ -1,0 +1,24 @@
+[[main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[main]]
+  name = "归档"
+  url = "/archives/"
+  weight = 2
+
+[[main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+
+[[main]]
+  name = "关于"
+  url = "/about/"
+  weight = 4
+
+[[main]]
+  name = "项目"
+  url = "/projects/"
+  weight = 5

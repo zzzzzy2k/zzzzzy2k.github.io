@@ -1,0 +1,37 @@
+mainSections = ["posts"]
+defaultTheme = "auto"
+robots = true
+
+[sidebar]
+  emoji = "📖"
+  subtitle = "记录技术与生活"
+  [sidebar.avatar]
+    enabled = true
+    local = true
+    src = "images/avatar.png"
+
+[article]
+  toc = true
+  readingTime = true
+  license = { enabled = false }
+
+[sidebar]
+  [sidebar.posts]
+    limit = 5
+
+[widget]
+  [widget.social]
+    enabled = true
+
+[footer]
+  since = 2026
+
+[comments]
+  enabled = false
+
+[readingTime]
+  enabled = true
+
+[seo]
+  [seo.title]
+    separator = " - "

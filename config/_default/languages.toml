@@ -1,0 +1,7 @@
+[zh]
+  languageName = "中文"
+  weight = 1
+  [zh.params]
+    [zh.params.title]
+      normal = "zzzzzy2k"
+      subscript = "的博客"
