@@ -1,53 +1,49 @@
 mainSections = ["posts"]
-defaultTheme = "auto"
-robots = true
+rssFullContent = true
 
-[sidebar]
-  emoji = "📖"
-  subtitle = "记录技术与生活"
-  avatar = "/images/avatar.png"
-  [sidebar.posts]
-    limit = 5
-
-[article]
-  toc = true
-  readingTime = true
-  license = { enabled = false }
-
-[widget]
-  [widget.social]
-    enabled = true
-
-[[widgets.homepage]]
-  type = "search"
-
-[[widgets.homepage]]
-  type = "categories"
-  [widgets.homepage.params]
-    limit = 8
-
-[[widgets.homepage]]
-  type = "tag-cloud"
-  [widgets.homepage.params]
-    limit = 10
-
-[[widgets.homepage]]
-  type = "archives"
-  [widgets.homepage.params]
-    limit = 5
-
-[[widgets.homepage]]
-  type = "toc"
+SortBy = "default"
 
 [footer]
-  since = 2026
+    since      = 2026
+    customText = ""
+
+[dateFormat]
+    published   = ":date_full"
+    lastUpdated = ":date_full"
+
+[sidebar]
+    emoji    = "📖"
+    subtitle = "记录技术与生活"
+    avatar   = "/images/avatar.png"
+
+[article]
+    headingAnchor = false
+    math          = false
+    readingTime   = true
+    toc           = true
+
+    [article.license]
+        enabled = false
+
+    [article.list]
+        showTags = true
+
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+    ]
+    page = [{ type = "toc" }]
+
+[opengraph.twitter]
+    site = ""
+    card = "summary_large_image"
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
 
 [comments]
-  enabled = false
-
-[readingTime]
-  enabled = true
-
-[seo]
-  [seo.title]
-    separator = " - "
+    enabled = false

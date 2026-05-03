@@ -1,0 +1,20 @@
+baseURL = "https://zzzzzy2k.github.io/"
+locale = "zh-cn"
+title = "zzzzzy2k 的博客"
+theme = "stack"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+hasCJKLanguage = true
+
+[pagination]
+    pagerSize = 5
+
+[outputs]
+    page = ["HTML", "JSON"]
+
+[outputFormats.JSON]
+    mediaType = "application/json"
+    suffix = "json"
+    isPlainText = true
