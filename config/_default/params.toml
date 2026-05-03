@@ -5,7 +5,7 @@ robots = true
 [sidebar]
   emoji = "📖"
   subtitle = "记录技术与生活"
-  avatar = "https://github.com/zzzzzy2k.png"
+  avatar = "images/avatar.png"
   [sidebar.posts]
     limit = 5
 
@@ -17,6 +17,27 @@ robots = true
 [widget]
   [widget.social]
     enabled = true
+
+[[widgets.homepage]]
+  type = "search"
+
+[[widgets.homepage]]
+  type = "categories"
+  [widgets.homepage.params]
+    limit = 8
+
+[[widgets.homepage]]
+  type = "tag-cloud"
+  [widgets.homepage.params]
+    limit = 10
+
+[[widgets.homepage]]
+  type = "archives"
+  [widgets.homepage.params]
+    limit = 5
+
+[[widgets.homepage]]
+  type = "toc"
 
 [footer]
   since = 2026
